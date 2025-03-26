@@ -43,4 +43,4 @@ A complete car rental management system built with pure PHP. This application al
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/ikarrental.git
+   git clone https://github.com/fredhzp/ikarrental.git
