@@ -1,0 +1,44 @@
+[
+    {
+        "id": "67844b4479bf6",
+        "start_date": "1997-05-06",
+        "end_date": "1997-06-06",
+        "user_email": "123@example.com",
+        "car_id": "2"
+    },
+    {
+        "id": "6784547f8515e",
+        "start_date": "2025-02-06",
+        "end_date": "2025-03-06",
+        "user_email": "123@example.com",
+        "car_id": "10"
+    },
+    {
+        "id": "678455080e610",
+        "start_date": "2025-01-13",
+        "end_date": "2025-01-14",
+        "user_email": "123@example.com",
+        "car_id": "2"
+    },
+    {
+        "id": "6784579eddeb1",
+        "start_date": "1992-05-05",
+        "end_date": "1992-05-06",
+        "user_email": "123@example.com",
+        "car_id": "2"
+    },
+    {
+        "id": "67845bc686105",
+        "start_date": "1997-05-06",
+        "end_date": "1997-05-06",
+        "user_email": "123@example.com",
+        "car_id": "2"
+    },
+    {
+        "id": "67845be240a5e",
+        "start_date": "1997-05-06",
+        "end_date": "1997-05-06",
+        "user_email": "123@example.com",
+        "car_id": "2"
+    }
+]

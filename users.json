@@ -1,0 +1,26 @@
+[
+    {
+        "full_name": "fred heng",
+        "email": "123@example.com",
+        "password": "123",
+        "admin_status": false
+    },
+    {
+        "full_name": "Admin",
+        "email": "admin@ikarrental.hu",
+        "password": "admin",
+        "admin_status": true
+    },
+    {
+        "full_name": "freddy heng",
+        "email": "1234@example.com",
+        "password": "123",
+        "admin_status": false
+    },
+    {
+        "full_name": "fred heng",
+        "email": "123@example.com",
+        "password": "123",
+        "admin_status": false
+    }
+]
