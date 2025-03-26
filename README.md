@@ -1,64 +1,50 @@
-# Kingdom's Railway Network 🚂
+# iKarRental 🚗💨
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-A puzzle game where you design a circular railway through challenging terrain. Built with pure JavaScript, HTML, and CSS.
+A complete car rental management system built with pure PHP. This application allows users to browse and book vehicles while providing administrators with tools to manage the fleet.
 
-![Game Screenshot](/assets/screenshots/gameplay.png)
+![Application Screenshot](/assets/screenshots/homepage.png)
 
 ## Table of Contents
 - [Features](#features)
-- [How to Play](#how-to-play)
 - [Installation](#installation)
-- [Development](#development)
+- [Usage](#usage)
+- [Technical Details](#technical-details)
+- [Database Structure](#database-structure)
 - [License](#license)
 
 ## Features
 
-### Game Mechanics
-- 🎮 Two difficulty levels (5x5 and 7x7 grids)
-- ⛰️ Four terrain types with unique constraints:
-  - Empty tiles
-  - Bridges (straight tracks only)
-  - Mountains (90° turns only)
-  - Oases (no tracks allowed)
-- 🔄 Single continuous loop requirement
-- ⏱️ Timer with leaderboard
+### User Experience
+- 🚘 Browse available vehicles with filters (date range, transmission, capacity, price)
+- 📅 Book vehicles for specific time periods
+- 👤 User registration and authentication system
+- 📋 Personal profile page with booking history
+- 🔍 Detailed vehicle information pages
 
-### Technical
-- 💯 Pure JavaScript (no frameworks)
+### Admin Capabilities
+- 👔 Admin dashboard (login: admin@ikarrental.hu / password: admin)
+- ➕ Add new vehicles to the fleet
+- ✏️ Edit existing vehicle details
+- ❌ Remove vehicles (with associated bookings)
+- 👁️ View all system bookings
+
+### Technical Features
+- 🔒 Secure authentication system
 - 📱 Responsive design
-- 💾 LocalStorage persistence for:
-  - Game state
-  - Leaderboards
-- 🧩 Puzzle validation system
-- ✨ Smooth UI transitions
-
-## How to Play
-
-1. **Start Menu**:
-   - Enter your name
-   - Select difficulty (Easy/Hard)
-   - Click "Start Game"
-
-2. **Gameplay**:
-   - Left-click cells to cycle through track pieces
-   - Right-click to rotate pieces
-   - Create a complete loop connecting all accessible cells
-   - The puzzle is complete when:
-     - All required cells are connected
-     - The path forms a single loop
-     - No invalid placements exist
-
-3. **Completion**:
-   - Your time is recorded
-   - View your position on the leaderboard
-   - Return to menu to play again
+- 📝 Form validation (client-side and server-side)
+- 📊 Booking conflict prevention
+- 💰 Automatic price calculation
 
 ## Installation
 
-No installation required! Simply:
+### Requirements
+- PHP 7.4+
+- MySQL 5.7+
+- Web server (Apache/Nginx)
 
+### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/kingdom-railway.git
+   git clone https://github.com/yourusername/ikarrental.git
